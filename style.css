@@ -671,6 +671,11 @@ footer {
     i {
         color: black;
     }
+       
+    i:hover, 
+    i:focus {
+        cursor: pointer;
+    }
 
     /*BRANDS*/
 
