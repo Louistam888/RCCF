@@ -640,6 +640,10 @@ footer {
         padding-top: 50px;
       
       }
+       
+    i {
+       visibility: visible;  
+      }
   
     .hamburgerMenu input:checked + .slideOut {
         visibility: visible;
