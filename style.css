@@ -644,7 +644,7 @@ footer {
         border-radius: 5px;
         resize: none;
         padding-top: 50px;
-        overflow: scroll;
+        overflow-y: scroll;
       }
 
     .hamburgerMenu input:checked + .slideOut {
