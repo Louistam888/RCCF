@@ -156,6 +156,7 @@ nav img {
     width: 100%;  
     justify-content: space-between;
     margin: 0 auto;
+    height: 90px;
 }
 
 
@@ -167,11 +168,9 @@ ul.sliding-menu {
     z-index: 10;
     width: 30%; 
     right: -30%; 
-    top: 10vh;
+    top: 90px;
     height: 100%;
-    transition: all 0.5s; 
-    
-    
+    transition: all 0.5s;     
 }
 
 ul.sliding-menu a {
@@ -196,6 +195,10 @@ input[type="checkbox"]:checked + ul.sliding-menu {
 input[type="checkbox"] {
     display: none;  
 }          
+
+/* .hamburgerMenu {
+    display: flex;
+} */
 
 
 /*LOGO BOX */
@@ -226,6 +229,7 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
 }
+
 
 /* MAIN IMAGE */
 
@@ -581,6 +585,14 @@ footer {
 
     /* NAV */
 
+    .navContainer {
+        height: 90px; 
+    }
+
+    nav {
+        padding: 0;
+    }
+    
 
     .navRed {
         font-size: 2rem; 
@@ -605,6 +617,7 @@ footer {
         z-index: 100;
         border-radius: 5px;
       }
+
      
     /* HAMBURGER MENU */
 
@@ -615,7 +628,7 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         justify-content:center;
-        top: 10vh;
+        top: 90px;
         right: -1000px;
         opacity: 0;
         transition: all 0.5s;
@@ -625,6 +638,7 @@ footer {
         border-radius: 5px;
         resize: none;
         padding-top: 50px;
+      
       }
   
     .hamburgerMenu input:checked + .slideOut {
@@ -634,7 +648,7 @@ footer {
         align-items: center;
         justify-content: flex-start;
         position: absolute;
-        top: 10vh;
+        top: 90px;
         right: 0;
         width: 100%;
         height: 100vh;
@@ -670,7 +684,7 @@ footer {
     i {
         color: black;
     }
-       
+
     i:hover, 
     i:focus {
         cursor: pointer;
@@ -767,9 +781,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+   
 
     .slideOut, .hamburgerMenu input:checked + .slideOut {
-        top: 8vh;
+        top: 90px;
       }
 
     .slideOut li a {
@@ -784,10 +799,12 @@ footer {
         width: 50%;
     }
 
+
     .logoBox img {
         height: 60px; 
         width: auto;
     }
+
 
     .socialMedia img {
         height: 40px;
