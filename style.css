@@ -584,6 +584,12 @@ footer {
 
 
     /* NAV */
+    
+    nav a:hover,
+    nav a:focus {
+    background-color: white;
+    color: black;
+    }
 
     .navContainer {
         height: 90px; 
@@ -639,6 +645,7 @@ footer {
         resize: none;
         padding-top: 50px;
         overflow-y: auto;
+      
       }
 
     .hamburgerMenu input:checked + .slideOut {
