@@ -616,7 +616,6 @@ footer {
         height: 100vh;
         z-index: 100;
         border-radius: 5px;
-        overflow-y: scroll;
       }
 
      
@@ -639,7 +638,7 @@ footer {
         border-radius: 5px;
         resize: none;
         padding-top: 50px;
-      
+        overflow-y: auto;
       }
 
     .hamburgerMenu input:checked + .slideOut {
