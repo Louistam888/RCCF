@@ -638,7 +638,7 @@ footer {
         right: -1000px;
         opacity: 0;
         transition: all 0.5s;
-        width: 100%;
+        width: 65%;
         height: calc(100vh - 90px);
         z-index: 100;
         border-radius: 5px;
@@ -656,7 +656,7 @@ footer {
         position: absolute;
         top: 90px;
         right: 0;
-        width: 100%;
+        width: 65%;
         height: calc(100vh - 90px);
         background-color: white;
         z-index: 100;
